@@ -1,0 +1,15 @@
+/Users/heljah/Desktop/S/DotNet/calculator/bin/Debug/net5.0/calculator.deps.json
+/Users/heljah/Desktop/S/DotNet/calculator/bin/Debug/net5.0/calculator.runtimeconfig.json
+/Users/heljah/Desktop/S/DotNet/calculator/bin/Debug/net5.0/calculator.runtimeconfig.dev.json
+/Users/heljah/Desktop/S/DotNet/calculator/bin/Debug/net5.0/calculator.dll
+/Users/heljah/Desktop/S/DotNet/calculator/bin/Debug/net5.0/ref/calculator.dll
+/Users/heljah/Desktop/S/DotNet/calculator/bin/Debug/net5.0/calculator.pdb
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.csprojAssemblyReference.cache
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.AssemblyInfoInputs.cache
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.AssemblyInfo.cs
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.csproj.CoreCompileInputs.cache
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.dll
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/ref/calculator.dll
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.pdb
+/Users/heljah/Desktop/S/DotNet/calculator/obj/Debug/net5.0/calculator.genruntimeconfig.cache

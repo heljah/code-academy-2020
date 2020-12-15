@@ -1,0 +1,15 @@
+/Users/heljah/Desktop/S/DotNet/guessGame/bin/Debug/net5.0/guessGame.deps.json
+/Users/heljah/Desktop/S/DotNet/guessGame/bin/Debug/net5.0/guessGame.runtimeconfig.json
+/Users/heljah/Desktop/S/DotNet/guessGame/bin/Debug/net5.0/guessGame.runtimeconfig.dev.json
+/Users/heljah/Desktop/S/DotNet/guessGame/bin/Debug/net5.0/guessGame.dll
+/Users/heljah/Desktop/S/DotNet/guessGame/bin/Debug/net5.0/ref/guessGame.dll
+/Users/heljah/Desktop/S/DotNet/guessGame/bin/Debug/net5.0/guessGame.pdb
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.csprojAssemblyReference.cache
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.AssemblyInfoInputs.cache
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.AssemblyInfo.cs
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.csproj.CoreCompileInputs.cache
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.dll
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/ref/guessGame.dll
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.pdb
+/Users/heljah/Desktop/S/DotNet/guessGame/obj/Debug/net5.0/guessGame.genruntimeconfig.cache
