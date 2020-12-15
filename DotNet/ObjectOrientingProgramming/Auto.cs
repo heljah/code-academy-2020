@@ -30,11 +30,13 @@ namespace ObjectOrientingProgramming
 
         public void Kiihdytä()
         {
-            if (Nopeus <= Huippunopeus)
+            Nopeus += 5;
+            if (Nopeus >= Huippunopeus)
             {
-                Nopeus += 5;
-                Console.WriteLine("Kiihdytit: nopeus on nyt " + Nopeus + "km/h.");
+                Nopeus = Huippunopeus;
             }
+            Console.WriteLine("Kiihdytit: nopeus on nyt " + Nopeus + "km/h.");
+
         }
 
         public void Jarruta()
