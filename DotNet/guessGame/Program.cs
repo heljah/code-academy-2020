@@ -1,5 +1,5 @@
 ﻿using System;
-
+// This game lets user to guess a number for three times.
 namespace guessGame
 {
     class Program
