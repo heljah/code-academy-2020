@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ABC</title>
+    
+</head>
+<body>
+    <h1>Anna tietosi</h1>
+    <form action="urlhere..." method="get">
+        <input type="text" placeholder="nimi" name="name" required>
+        <input type="email" placeholder="sähköposti" name="email" required>
+        <input type="text" placeholder="kengänkoko" name="shoesize">
+        <input type="password" placeholder="salasana" name="password" required>
+        <input name="country" list="country_list">
+        <datalist id="country_list">
+            <option value="Suomi" label="Finland">
+            <option value="Ruotsi" label="Sweden">
+            <option value="Venäjä" label="Russia"></option>
+        </datalist>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

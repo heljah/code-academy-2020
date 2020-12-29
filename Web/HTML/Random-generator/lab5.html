@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 id="otsikko">Otsikko</h1>
+        <button id="buttoni">Klikkaa mua</button>
+
+        <input type="text" placeholder="Nimesi" name="name">
+        <button id="nappi">Morota</button>
+        <script>
+            let button = document.querySelector('#buttoni');
+            button.addEventListener("click", () => {
+                let number = Math.random();
+                alert("Moro, tässä sulle onnennumero: " + number);
+
+                let otsikko = document.querySelector('#otsikko');
+                console.log(otsikko);
+                otsikko.innerHTML = "Hello world!"
+            });
+
+            let nappi = document.querySelector('#nappi');
+            nappi.addEventListener("click", () => {
+                let otsikko = document.querySelector('#otsikko');
+                let nimi = document.querySelector('input').value;
+                otsikko.innerHTML = "Moro " + nimi;
+            });
+
+
+        </script>
+    </body>
+</html>

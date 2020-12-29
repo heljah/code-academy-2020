@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 id="otsikko">Otsikko</h1>
+
+        <input type="text" id="paino" placeholder="paino kg" name="paino">
+        <input type="text" id="pituus" placeholder="pituus m" name="pituus">
+
+        <p id="indeksi"></p>
+        <script>
+            const pituuskentta = document.querySelector('#pituus');
+            pituuskentta.addEventListener("keyup", () => {
+                const indeksi = document.querySelector('#indeksi');
+                const paino = document.querySelector('#paino').value;
+                const pituus = pituuskentta.value;
+
+                indeksi.innerHTML = "Moro, painoindeksisi on " + (paino/(pituus*pituus))*10000;
+            });
+
+
+        </script>
+    </body>
+</html>

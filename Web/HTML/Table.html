@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Table</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 5px;
+                text-align: left;    
+            }
+        </style>
+        <script></script>
+    </head>
+    <body>
+        <h1 style="justify-content: center">Otsake taulukolle</h1>
+        <table>
+            <tr style="font: bold">
+                <th>Otsikkosolu 1</th>
+                <th>Otsikkosolu 2</th>
+                <th>Otsikkosolu 3</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Sisältösolu 1; korkea</th>
+                <th>Sisältösolu 2</th>
+                <th>Sisältösolu 3</th>
+            </tr>
+            <tr>
+                <th colspan="2">Sisältösolu 4; leveä</th>
+            </tr>
+            
+        </table>
+    </body>
+</html>
