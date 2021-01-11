@@ -1,8 +1,9 @@
 DotNet/HelloWorld/bin/
 DotNet/HelloWorld/obj/
-DotNet/guessGame/bin/
-DotNet/guessGame/obj/
+DotNet/guessGame/bin/*
+DotNet/guessGame/obj/*
 DotNet/calculator/bin/
 DotNet/calculator/obj/
 DotNet/ObjectOrientingProgramming/bin/
 DotNet/ObjectOrientingProgramming/obj/
+Web/nodejs/node_modules/
