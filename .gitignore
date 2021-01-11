@@ -7,3 +7,5 @@ DotNet/calculator/obj/
 DotNet/ObjectOrientingProgramming/bin/
 DotNet/ObjectOrientingProgramming/obj/
 Web/nodejs/node_modules/
+DotNet/guessGame/obj/Debug/net5.0/guessGame.csprojAssemblyReference.cache
+DotNet/calculator/obj/Debug/net5.0/calculator.csprojAssemblyReference.cache
