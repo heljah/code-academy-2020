@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            OTSIKKO
+        </title>
+        
+        <meta charset="UTF-8" />
+        <style media="screen"></style>
+        
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    </head>
+    
+    <body>
+        
+        <div id="root"></div>
+        <script type="text/babel">
+            const Image = () => <img src="https://picsum.photos/200" alt="random picsum" />;
+
+            const Rows = (props) => {
+                let cols = [];
+                for (let i = 0; i < props.cols; i++) {
+                    cols.push(<td><Image /></td>)
+                    
+                }
+                return <tr>{cols}</tr>
+            }
+            const Table = (props) => {
+                let rows = [];
+                for (let i = 0; i < props.rows; i++) {
+                    rows.push(<Rows cols={props.cols} />)                    
+                }
+                return <table>{rows}</table>
+            }
+
+
+            ReactDOM.render(
+                <Table rows={4} cols={4}/>, document.getElementById('root')
+            );
+        </script>
+
+    </body>
+</html>

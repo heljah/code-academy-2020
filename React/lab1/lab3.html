@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Title
+        </title>
+        
+        <meta charset="UTF-8" />
+        <style media="screen"></style>
+        
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    </head>
+    
+    <body>
+        
+        <div id="root"></div>
+        <script type="text/babel">
+            // Reactissa funktiot aloitettava isolla alkukirjaimella
+/*             const Link = (properties) => {
+                console.log(properties) // outputting
+                return <a href={properties.link}>{properties.text}</a>
+            }
+
+            ReactDOM.render(
+                <Link link="http://www.google.com" text="google"/>,
+                document.getElementById('root')
+            ); */
+
+
+/*             const Link = (properties) => <a href={properties.link}>{properties.text}</a>
+
+            const T3 = () => {
+                return (
+                    <ul>
+                    <li><Link link="http://www.uta.fi" text="uta"/></li>
+                    <li><Link link="http://www.tut.fi" text="tut"/></li>
+                    <li><Link link="http://www.tamk.fi" text="tamk"/></li>
+                    </ul>
+                );
+            }
+
+            ReactDOM.render(
+                <T3/>,
+                document.getElementById('root')
+            ); */
+
+
+            function App() {
+                const a = <p>Hello World</p>;
+                return <div>{ [a,a,a,a] }</div>;
+            }
+
+            ReactDOM.render(
+                <App/>,
+                document.getElementById('root')
+            );
+        </script>
+
+    </body>
+</html>

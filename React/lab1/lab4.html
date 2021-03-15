@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            OTSIKKO
+        </title>
+        
+        <meta charset="UTF-8" />
+        <style media="screen"></style>
+        
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    </head>
+    
+    <body>
+        
+        <div id="root"></div>
+        <script type="text/babel">
+            const List = (props) => {
+                let list = [];
+                for (let i = 0; i < props.amount; i++) {
+                    list.push(<li>{props.txt}</li>);                    
+                }
+                if (props.ordered) {
+                    return <ol>{list}</ol>;
+
+                } else {
+                    return <ul>{list}</ul>;
+                }
+            }
+
+            ReactDOM.render(
+                <List amount={4} ordered={true} txt="Buy Milk"/>, document.getElementById('root')
+            );
+        </script>
+
+    </body>
+</html>
