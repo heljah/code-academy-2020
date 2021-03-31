@@ -15,8 +15,8 @@
 <button (click)="toggle()">Toggle clock</button>
 <br />
 
-<app-countdown [from]=from [to]=to (finished)="done($event)"></app-countdown>
-<input
+<app-countdown [from]=1 [to]=10 (finished)="done($event)"></app-countdown>
+<!-- <input
   placeholder="from"
   type="number"
   name="from"
@@ -27,5 +27,5 @@
   type="number"
   name="to"
   [(ngModel)]="to"
-/><br />
+/><br /> -->
 

@@ -11,23 +11,26 @@ export class CountdownComponent implements OnInit, OnDestroy {
   @Input() to = 0;
   @Output() finished = new EventEmitter<string>();
   id: any;
+  counting = 0;
   constructor() { }
 
   // jos tätä funktiota kutsutaan ilman arrow-syntaksia, se aiheuttaa this-ongelman
   ngOnInit(): void {
-    this.id = setInterval(() => this.count(), 2000);
+    this.id = setInterval(() => {
+      if (this.counting < this.to) {
+        this.count()
+      } else {
+        this.finished.emit('countdown done')
+        this.ngOnDestroy();
+      }
+    }, 1000);
   }
 
   count(): void {
-    for (let i = this.from; i < this.to + 1; i++) {
-      console.log(this.from, this.to);
-      console.log(i);      
-    }
-    this.finished.emit('countdown done')
-    this.ngOnDestroy();
+    this.counting++;
   }
 
-  // This will be called when input changes.
+/*   // This will be called when input changes.
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.from.firstChange || changes.to.firstChange) {
       console.log("First change, doing nothing")
@@ -40,7 +43,7 @@ export class CountdownComponent implements OnInit, OnDestroy {
       }
     }
 
-  }
+  } */
 
   ngOnDestroy(): void {
     clearInterval(this.id);
