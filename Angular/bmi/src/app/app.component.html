@@ -1,0 +1,7 @@
+<form action="submit">
+  <input [(ngModel)]="personName" placeholder="name" name="name" />
+  <input [(ngModel)]="mass" placeholder="mass" name="mass" />
+  <input [(ngModel)]="height" placeholder="height" name="height" />
+</form>
+<p>{{calculateBMI()}}</p>
+<p>The BMI on {{personName}}: {{mass / (height*height)}}</p>

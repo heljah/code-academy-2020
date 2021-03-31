@@ -1,0 +1,31 @@
+
+<h1>My Project</h1>
+
+<ul>
+  <li *ngFor="let char of characters">{{ char.name }}</li>
+</ul>
+
+<app-clock [locale]=locale *ngIf="isVisible"></app-clock><br/>
+<input
+  placeholder="locale"
+  type="text"
+  name="locale"
+  [(ngModel)]="locale"
+/><br />
+<button (click)="toggle()">Toggle clock</button>
+<br />
+
+<app-countdown [from]=from [to]=to (finished)="done($event)"></app-countdown>
+<input
+  placeholder="from"
+  type="number"
+  name="from"
+  [(ngModel)]="from"
+/>
+<input
+  placeholder="to"
+  type="number"
+  name="to"
+  [(ngModel)]="to"
+/><br />
+
